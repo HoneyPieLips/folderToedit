@@ -90,7 +90,7 @@ function Navbar() {
               <div className="hrLine"></div>
             </div>
             <AuthenticationModal type={"SignUP"}>
-              <Link to={"/signup"}>
+              <Link to={"/register"}>
                 <button className="mainBtns">
                   <HowToRegIcon className="navIcons" />
                   <span>Sign up</span>
